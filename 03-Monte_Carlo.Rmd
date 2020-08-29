@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Il est souvent utilse de faire des *simulations de Monte-Carlo* afin d'étudier les propriétés des estimateurs que nous rencontrerons, et de "visualiser" leurs comprtements. Ces propriétés (biais, convergence, efficacité etc.) sont des propriétés *statistques* qui ont trait à la *distribution* des estimateurs, vus comme une variables aléatoire. Une simulation de Monte-Carlo consiste en quelque sortes à tirer plein de valeurs de ces variables aléatoires afin d'étudier leurs distribution.
 
-### un exemple 
+## Un premier exemple 
 
 Votre cours de statistrique et de probabilité vous a (normalement) appris que la moyenne d'un échantillon de taille $n$ issu d'une loi Normale $N(\mu,\sigma^2)$ de moyenne $\mu$ et d'écart-type $\sigma$ est une variable aléatoire suivant une loi normale de moyenne $\mu$ et d'écart-type $\frac{\sigma}{\sqrt{n}}$. Utilisons `R' pour le vérifier.
 
